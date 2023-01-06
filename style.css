@@ -3,6 +3,7 @@
     margin: 0;
     font-family: sans-serif;
 }
+/* banner styles */
 .nav-container {
     width: 100%;
     height: 100vh;
@@ -38,4 +39,46 @@ margin-bottom: 33px;
     border-radius: 5px;
     font-weight: 600;
 font-size: 20px;
+}
+/* body styles */
+.failure-container {
+    padding: 130px 322px 130px 205px;
+   
+    
+}
+.failure-div {
+     display: flex;
+     gap: 10px;
+     justify-content: space-between;
+    
+}
+.failure-sub-div{
+justify-content: space-between;
+padding-left: 200px;
+}
+.failure-title {
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-top: 370px;
+margin-bottom: 25px;
+}
+.failure-description {
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-bottom: 30px;
+}
+
+ul{
+    list-style-type: disc;
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+
+}
+.failure-image{
+    margin-left: 90px;
+    width: 569px;
+height: 723.3px;
 }
