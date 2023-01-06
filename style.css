@@ -3,6 +3,7 @@
     margin: 0;
     font-family: sans-serif;
 }
+
 /* banner styles */
 .nav-container {
     width: 100%;
@@ -12,73 +13,113 @@
     background-size: contain;
 }
 
-.nav-sub-container{
-text-align: right;
-padding: 400px 230px 360px 1280px;
+.nav-sub-container {
+    text-align: right;
+    padding: 400px 230px 360px 1280px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
     margin-bottom: 25px;
 }
 
-.nav-description{
+.nav-description {
     font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
-margin-bottom: 33px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FFFFFF;
     color: #005FAC;
     padding: 20px 25px;
     border: none;
     border-radius: 5px;
     font-weight: 600;
-font-size: 20px;
+    font-size: 20px;
 }
+
 /* body styles */
 .failure-container {
     padding: 130px 322px 130px 205px;
-   
-    
+
+
 }
+
 .failure-div {
-     display: flex;
-     gap: 10px;
-     justify-content: space-between;
-    
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
 }
-.failure-sub-div{
-justify-content: space-between;
-padding-left: 200px;
+
+.failure-sub-div {
+    justify-content: space-between;
+    padding-left: 200px;
 }
+
 .failure-title {
     font-weight: 700;
-font-size: 40px;
-color: #151414;
-margin-top: 370px;
-margin-bottom: 25px;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 370px;
+    margin-bottom: 25px;
 }
+
 .failure-description {
     font-weight: 400;
-font-size: 16px;
-color: #444343;
-margin-bottom: 30px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
 }
 
-ul{
+ul {
     list-style-type: disc;
     font-weight: 400;
-font-size: 16px;
-color: #444343;
+    font-size: 16px;
+    color: #444343;
 
 }
-.failure-image{
+
+.failure-image {
     margin-left: 90px;
     width: 569px;
-height: 723.3px;
+    height: 723.3px;
+}
+
+/* plan styles */
+
+.plan {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.plan_container {
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+}
+.plans{
+    justify-content: center;
+    text-align: center;
+}
+.plans img{
+    margin-bottom: 25px;
+   
+}
+.plans h3{
+    margin-bottom: 18px;
+    font-weight: 700;
+font-size: 30px;
+}
+.plans p{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
 }
