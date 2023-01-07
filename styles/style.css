@@ -2,9 +2,13 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+
 }
 
 /* banner styles */
+button:hover{
+    background-color: aquamarine;
+}
 .nav-container {
     width: 100%;
     height: 100vh;
@@ -41,6 +45,8 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+
 
 /* body styles */
 .failure-container {
@@ -167,6 +173,7 @@ ul {
     margin-bottom: 160px;
     margin-top: 150;
     width: 160px;
+    
 }
 
 /* footer styles  */
@@ -237,4 +244,5 @@ footer {
     font-size: 20px;
     margin-top: 15px;
 }
+
 
