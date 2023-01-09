@@ -14,7 +14,7 @@ button:hover{
     height: 100vh;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .nav-sub-container {
@@ -94,6 +94,7 @@ ul {
     margin-left: 90px;
     width: 569px;
     height: 723.3px;
+    
 }
 
 /* plan styles */
